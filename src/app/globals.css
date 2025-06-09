@@ -8,10 +8,8 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
 /* Font HK Modular Bold is loaded in layout.tsx, and variable font-modular is defined there. It's placed on the html element as a class name. */
-  --font-main: var(--font-modular);
+  --font-logo: var(--font-modular);
 }
 
 @media (prefers-color-scheme: dark) {

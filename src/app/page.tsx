@@ -15,7 +15,7 @@ export default function Home() {
     <div className="min-h-screen flex flex-col items-center justify-between bg-white">
       <main className="flex-1 flex flex-col items-center justify-center w-full">
         {/* <h1 className={`${hkModular.className} text-6xl`}>fuqkit</h1> */}
-        <h1 className={`font-main text-6xl`}>fuqkit</h1>
+        <h1 className={`font-logo text-6xl`}>fuqkit</h1>
         <p className="font-inter text-xl text-gray-500 italic tracking-wide mb-8">
           right now ready
         </p>
