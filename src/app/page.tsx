@@ -12,38 +12,46 @@ Amplify.configure(outputs);
 
 export default function Home() {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-between bg-white">
-      <main className="flex-1 flex flex-col items-center justify-center w-full">
-        {/* <h1 className={`${hkModular.className} text-6xl`}>fuqkit</h1> */}
-        <h1 className={`font-logo text-6xl`}>fuqkit</h1>
-        <p className="font-inter text-xl text-gray-500 italic tracking-wide mb-8">
+    <div className="min-h-full flex flex-col items-center justify-between bg-white p-8 relative" style={{
+      backgroundImage: "url(/shutterstock_413245453.jpg)",
+      backgroundSize: "cover",
+      backgroundPosition: "center",
+      backgroundRepeat: "no-repeat",
+    }}>
+      <div className="absolute inset-0 bg-black/20 z-10 w-full h-full pointer-events-none" aria-hidden="true"></div>
+      <main className="z-20 flex-1 flex flex-col items-center justify-center w-full">
+        <h1 className={`font-logo text-8xl`}>fuqkit</h1>
+        <p className="font-inter text-4xl italic tracking-wide mb-8">
           right now ready
         </p>
-        <p className="font-inter text-lg text-gray-700 max-w-2xl text-center mb-8">
+        <p className="font-inter text-4xl max-w-2xl text-center mb-8">
           A discreet, travel-sized pouch containing just what you need to get the most out of a spontaneous sexual encounter.
         </p>
-        <ul className="font-inter text-base text-gray-800 max-w-md mx-auto space-y-3 mb-10">
+        <ul className="font-inter text-4xl max-w-md mx-auto space-y-3 mb-10 ">
           <li className="flex items-center gap-2">
-            <span className="text-green-500">Luxurious Lube</span>
+            <span className="">Luxurious Lube</span>
           </li>
           <li className="flex items-center gap-2">
-            <span className="text-green-500">Top-Quality Condoms</span>
+            <span className="">Top-Quality Condoms</span>
           </li>
           <li className="flex items-center gap-2">
-            <span className="text-green-500">Moist Wipes for Before and After</span>
+            <span className="">Moist Wipes for Before and After</span>
           </li>
           <li className="flex items-center gap-2">
-            <span className="text-green-500">Mouthwash for Fresh Kisses</span>
+            <span className="">Mouthwash</span>
           </li>
           <li className="flex items-center gap-2">
-            <span className="text-green-500">Silicone Cock Rings to Make Pleasure Last as Long as You Want</span>
+            <span className="">A Cock Ring to Make It Last</span>
           </li>
           <li className="flex items-center gap-2">
-            <span className="text-green-500">Compact Bulb-Type Anal Douche</span>
+            <span className="">Compact Bulb-Type Anal Douche for a Fresh Bottom</span>
           </li>
         </ul>
+        <p className="font-inter text-4xl italic tracking-wide mb-8">
+          Coming Soon
+        </p>
       </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
+      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center font-inter">
         <div><span className="text-sm">&copy;2025 fuqkit llc</span></div>
       </footer>
     </div>
