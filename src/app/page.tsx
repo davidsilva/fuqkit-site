@@ -14,14 +14,14 @@ export default function Home() {
     }}>
       <div className="absolute inset-0 bg-blue-500/60 z-10 w-full h-full pointer-events-none" aria-hidden="true"></div>
       <main className="z-20 flex-1 flex flex-col items-center justify-center w-full">
-        <h1 className={`font-logo text-8xl`}>fuqkit</h1>
-        <p className="font-inter text-4xl italic tracking-wide mb-8">
+        <h1 className={`font-logo text-5xl sm:text-7xl md:text-8xl text-foreground`}>fuqkit</h1>
+        <p className="font-inter text-2xl sm:text-3xl  md:text-4xl italic tracking-wide mb-8 text-foreground">
           right now ready
         </p>
-        <p className="font-inter text-4xl max-w-2xl text-center mb-8">
+        <p className="font-inter text-xl sm:text-2xl md:text-3xl text-foreground max-w-2xl text-center mb-8">
           A discreet, travel-sized pouch containing just what you need to get the most out of a spontaneous sexual encounter.
         </p>
-        <ul className="font-inter text-4xl max-w-md mx-auto space-y-3 mb-10 ">
+        <ul className="font-inter text-lg sm:text-2xl md:text-3xl text-foreground max-w-md mx-auto space-y-3 mb-10 ">
           <li className="flex items-center gap-2">
             <span className="">Luxurious Lube</span>
           </li>
