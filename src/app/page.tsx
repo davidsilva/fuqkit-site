@@ -6,7 +6,7 @@ Amplify.configure(outputs);
 
 export default function Home() {
   return (
-    <div className="min-h-full flex flex-col items-center justify-between bg-white p-8 relative" style={{
+    <div className="min-h-full flex flex-col items-center justify-between p-8 relative" style={{
       backgroundImage: "url(/shutterstock_413245453.jpg)",
       backgroundSize: "cover",
       backgroundPosition: "center",
