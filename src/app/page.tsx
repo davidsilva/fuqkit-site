@@ -4,12 +4,6 @@ import outputs from "../../amplify_outputs.json";
 
 Amplify.configure(outputs);
 
-// const hkModular = localFont({
-//   src: "./fonts/HKModularBold/font.woff2",
-//   variable: "--font-modular",
-//   display: "swap",
-// });
-
 export default function Home() {
   return (
     <div className="min-h-full flex flex-col items-center justify-between bg-white p-8 relative" style={{
@@ -18,7 +12,7 @@ export default function Home() {
       backgroundPosition: "center",
       backgroundRepeat: "no-repeat",
     }}>
-      <div className="absolute inset-0 bg-black/20 z-10 w-full h-full pointer-events-none" aria-hidden="true"></div>
+      <div className="absolute inset-0 bg-blue-500/60 z-10 w-full h-full pointer-events-none" aria-hidden="true"></div>
       <main className="z-20 flex-1 flex flex-col items-center justify-center w-full">
         <h1 className={`font-logo text-8xl`}>fuqkit</h1>
         <p className="font-inter text-4xl italic tracking-wide mb-8">
