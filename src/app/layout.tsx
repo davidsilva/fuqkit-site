@@ -1,7 +1,11 @@
+import { Amplify } from "aws-amplify";
+import outputs from "../../amplify_outputs.json";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
+
+Amplify.configure(outputs);
 
 const inter = Inter({
   variable: "--font-inter",

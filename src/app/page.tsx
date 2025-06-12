@@ -1,9 +1,3 @@
-import { Amplify } from "aws-amplify";
-import outputs from "../../amplify_outputs.json";
-// import localFont from "next/font/local";
-
-Amplify.configure(outputs);
-
 export default function Home() {
   return (
     <div className="min-h-full flex flex-col items-center justify-between p-8 relative" style={{
