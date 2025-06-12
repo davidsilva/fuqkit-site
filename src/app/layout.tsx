@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
+import Script from "next/script";
 
 Amplify.configure(outputs);
 
@@ -38,6 +39,13 @@ export default function RootLayout({
     <html lang="en" className={`${inter.variable} ${hkModularFont.variable}`}>
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <Script 
+          id="mcjs"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/03fdccea8b87deb155af14abf/813b9579163e89e5b509aa596.js");`
+          }}
+          />
       </head>
       <body>
         {children}
