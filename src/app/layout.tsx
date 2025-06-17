@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
+import Script from "next/script";
 
 Amplify.configure(outputs);
 
@@ -38,6 +39,11 @@ export default function RootLayout({
     <html lang="en" className={`${inter.variable} ${hkModularFont.variable}`}>
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <Script 
+        async
+        type="text/javascript"
+        src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=QQBuLY"
+        />
       </head>
       <body>
         {children}

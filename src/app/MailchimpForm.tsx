@@ -6,6 +6,7 @@ export default function MailchimpForm() {
   return (
     <div className="w-full max-w-xl mx-auto bg-gray-800/90 rounded-lg shadow-lg p-6 my-8">
       <h2 className="text-2xl font-bold mb-2 text-center">Win a Fuqkit!</h2>
+      <p className="text-base">Sign up to receive our newsletter and you could win a fuqkit. We'll select one winner a month once fuqkit becomes available.</p>
       <form
         action="https://fuqkit.us12.list-manage.com/subscribe/post?u=dc26919366bda1becc321be5e&amp;id=ac3ab3954d&amp;f_id=00fc9fe0f0"
         method="post"
