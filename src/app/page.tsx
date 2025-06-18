@@ -1,5 +1,3 @@
-import MailchimpForm from "./MailchimpForm";
-
 export default function Home() {
   return (
     <div className="min-h-full flex flex-col items-center justify-between p-8 relative" style={{
@@ -40,7 +38,6 @@ export default function Home() {
         <p className="font-inter text-4xl italic tracking-wide mb-8">
           Cumming Soon?
         </p>
-        <MailchimpForm />
       </main>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center font-inter">
         <div><span className="text-sm">&copy;2025 fuqkit llc</span></div>
