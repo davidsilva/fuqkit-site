@@ -38,6 +38,7 @@ export default function Home() {
         <p className="font-inter text-4xl italic tracking-wide mb-8">
           Cumming Soon?
         </p>
+        <div className="klaviyo-form-RGVyip"></div>
       </main>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center font-inter">
         <div><span className="text-sm">&copy;2025 fuqkit llc</span></div>
